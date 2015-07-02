@@ -11,5 +11,5 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_SRC_FILES :=  libopencl.c
 LOCAL_CFLAGS   = -fPIC -O2
 
-include $(BUILD_STATIC_LIBRARY)
+include $(BUILD_SHARED_LIBRARY)
 
